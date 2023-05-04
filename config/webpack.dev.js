@@ -4,7 +4,7 @@ const commonConfig = require('../webpack.config.js');
 module.export = merge(commonConfig, {
   mode: 'development',
   devServer: {
-    port: 4200,
+    port: 7777,
   },
   plugins: [
     new MiniCssExtractPlugin({
